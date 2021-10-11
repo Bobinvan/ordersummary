@@ -1,0 +1,139 @@
+body {
+text-align: center;
+background: url(../images/pattern-background-desktop.png) hsl(225, 100%, 94%) repeat-x;
+font-family: verdana, sans-serif;
+margin-top: 80px;
+margin-bottom: 50px;
+}
+
+.top-container {
+  background-image: url(../images/illustration-hero.png);
+  border-radius: 20px 20px 0 0;
+  width: 450px;
+  height: 220px;
+  margin: auto;
+}
+
+.main {
+  width: 450px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+  padding-top: 10px;
+}
+
+.titlep {
+  margin-top: 0;
+  padding-top: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0f2151;
+}
+
+.textp {
+  color: #898e9b;
+  font-size: 0.7rem;
+  width: 70%;
+  margin: auto;
+  padding-top:5px;
+}
+
+.plan {
+  width: 70%;
+  height: 45px;
+  background-color: #f6f8ff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.plantitle {
+  color: #0f2151;
+  font-weight: bold;
+  font-size: 0.7rem;
+  position: relative;
+  right: 70px;
+  bottom: 15px;
+
+}
+
+.plandesc {
+  color: #898e9b;
+  font-size: 0.7rem;
+  position: relative;
+  right: 70px;
+  bottom: 20px;
+}
+
+a {
+  font-size: 0.6rem;
+
+}
+
+a:hover {
+  font-size: 0.6rem;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size: 0.6rem;
+  text-decoration: none;
+
+}
+
+.acancel {
+  color: #747d8c;
+  font-weight: bold;
+  float-left: clear;
+  display: block;
+  padding: 25px 25px 45px 25px;
+
+  text-decoration: none;
+}
+
+.acancel:hover {
+  color: #323333;
+
+}
+
+.imgf {
+  float: left;
+  position: relative;
+}
+
+.change {
+  float: right;
+  position: relative;
+  bottom: 65px;
+}
+
+
+
+.button {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height: 18px;
+   line-height: 18px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   width: 328px;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #0548C9;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+
+.button:hover {
+   background: #556BF7;
+   border: solid #81C6F8 0;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
